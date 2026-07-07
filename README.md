@@ -66,7 +66,7 @@ the true population distribution for evaluation.
 
 ## Project Architecture
 
-```mermaid
+```
 flowchart LR
     A[Raw CSV<br/>10,000 rows x 18 cols] --> B[Data Cleaning<br/>Pandas/NumPy]
     B --> C[Outlier Detection<br/>Z-score, |Z| > 3]
